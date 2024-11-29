@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    background-image: url('bg.jpg'); /* Ensure the image path is correct */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header section */
+.centered {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.8); /* Add a subtle background for readability */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.centered h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.centered p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main content styling */
+.content {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Post sections */
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post h2,h3,h4 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin-top: 20px;
+}
